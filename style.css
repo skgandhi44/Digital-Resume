@@ -2,7 +2,9 @@ body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
 }
-
+/*
+    NAVBAR
+*/
 .navbar{
     background-color: #CF0055;
     border: 0;
@@ -17,15 +19,22 @@ a.navbar-brand, a.nav-link{
     text-decoration: none;
 }
 
-.navbar-toggler {
-    border-color: white;
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+.navbar-nav li a:hover {
+    color: #CF0055 !important;
+    background-color: #fff !important;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: bold;
+}
+.navbar .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
 }
 
-.navbar-toggler-icon{
-    border: 1px solid white;
-}
-
-
+/*********************/
 /*
     Added style for jumbotron, which bring navbar in middle
     Added hover style, when user scroll, background color change
@@ -43,7 +52,9 @@ a.navbar-brand, a.nav-link{
 #nameTitle{
     margin-top: 20px;
     font-size: 35px;
+    color: black;
     font-family: Montserrat, sans-serif;
+    font-weight: bold;
 }
 
 /*
@@ -58,7 +69,9 @@ a.navbar-brand, a.nav-link{
 }
 
 .fa:hover {
-    opacity: 0.9;
+    opacity: 0.7;
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -130,6 +143,7 @@ h4 {
     color: #fff;
     font-size: 16px;
     font-family: Montserrat, sans-serif;
+    color: black;
 }
 
 h5 {
