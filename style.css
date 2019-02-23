@@ -37,8 +37,7 @@ a.navbar-brand, a.nav-link{
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
     margin-bottom: 0px;
-    height: 350px;
-    border-radius: 0 !important;
+    height: 100%;
 }
 
 #nameTitle{
@@ -60,10 +59,10 @@ p1{
 
 
 #profilePhoto{
-    height: 350px;
-    width: 260px;
-    border-radius: 7px;
-    margin-top: 100px;
+    height: 250px;
+    width: 230px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
 }
 
 /*
