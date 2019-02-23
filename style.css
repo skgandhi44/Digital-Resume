@@ -81,3 +81,42 @@ p1{
 .secondContainerBackground{
     background-color: white;
 }
+
+/*
+    Cards Footer font size h3 h4
+*/
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    color: #aaa;
+    font-size: 12px;
+}
+
+.card{
+    border-color: #2575fc;
+    transition: box-shadow 0.5s;
+}
+
+.card:hover{
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.card-header{
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    padding: 25px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn{
+    background-color: #CF0055;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #CF0055;
+}
