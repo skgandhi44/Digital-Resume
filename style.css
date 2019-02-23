@@ -24,3 +24,30 @@ a.navbar-brand, a.nav-link{
 .navbar-toggler-icon{
     border: 1px solid white;
 }
+
+
+/*
+    Added style for jumbotron, which bring navbar in middle
+    Added hover style, when user scroll, background color change
+*/
+
+.jumbotron{
+    background-color: #CF0055;
+    color: #fff;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0px;
+    height: 350px;
+}
+
+h1 {
+    font-size: 34px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+p1{
+    font-size: 17px;
+}
