@@ -1,0 +1,26 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+}
+
+.navbar{
+    background-color: #CF0055;
+    border: 0;
+    font-size: 12px !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+a.navbar-brand, a.nav-link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon{
+    border: 1px solid white;
+}
