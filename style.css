@@ -91,13 +91,19 @@ h3 {
 }
 
 h4 {
+    color: #fff;
+    font-size: 16px;
+}
+
+h5 {
     color: #aaa;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .card{
     border-color: #2575fc;
     transition: box-shadow 0.5s;
+    margin-bottom: 20px;
 }
 
 .card:hover{
@@ -119,4 +125,42 @@ h4 {
 
 .btn:hover{
     background-color: #CF0055;
+}
+
+/*
+    List group Item
+*/
+
+.col-sm-4 .list-group{
+    border: none;
+    transition: box-shadow 0.5s;
+    width: 100%;
+}
+
+.list-group:hover{
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.list-group-item #icon {
+    width: 50px;
+    height: 50px;
+}
+
+.skillCards{
+    width: 100%;
+}
+
+/*
+    FOOTER
+*/
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #CF0055;
+    color: white;
+    text-align: center;
 }
