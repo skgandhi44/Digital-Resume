@@ -38,6 +38,12 @@ a.navbar-brand, a.nav-link{
     font-family: Montserrat, sans-serif;
     margin-bottom: 0px;
     height: 350px;
+    border-radius: 0 !important;
+}
+
+#nameTitle{
+    margin-top: 20px;
+    font-size: 35px;
 }
 
 h1 {
@@ -50,4 +56,28 @@ h1 {
 
 p1{
     font-size: 17px;
+}
+
+
+#profilePhoto{
+    height: 350px;
+    width: 260px;
+    border-radius: 7px;
+    margin-top: 100px;
+}
+
+/*
+    Container-fluid: color, margin, column, padding
+*/
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.firstContainerBackground, .thirdContainerBackground, .fifthContainerBackground{
+    background-color: #FCF9F7;
+}
+
+.secondContainerBackground{
+    background-color: white;
 }
