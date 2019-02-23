@@ -70,19 +70,22 @@
 
                 <div class = "col-sm-12">
                     <h1 class = "text-center">About Me</h1><hr><br>
-                    <p1>
-                        I am a highly motivated, productive, and hard-working individual who is able to get along with people well and focus on multitasking while being patient.
-                        Proven ability to use initiative to successfully deal with challenges, finding solutions, and handle difficult situations.
-                        Very detail-oriented, resourceful, and highly organized. Fast learner, energetic worker who is willing to take responsibilities.
-                    </p1>
-                    <br><br>
-                    <p1>
-                        I am an undergraduate student at NJIT with a strong emphasis on database administration and network security.
-                        I am looking for a new and exciting position that will allow me to utilize and improve my technical and problem-solving skills.
-                        I currently work at Maplewood Memorial Library as an IT assistant, where I troubleshoot network and solve computer issues an ensure that patrons’ privacy is secured.
-                        Also, I use to work part-time on campus as web-specialist. This role has enhanced my leadership, project management, and web development skills.
-                        Besides, work and education I like to play Fortnite, watch on Netflix and also like to read books that has a theme of survival, victory and American dream
-                    </p1>
+
+                    <div id = "aboutMe">
+                        <p1>
+                            I am a highly motivated, productive, and hard-working individual who is able to get along with people well and focus on multitasking while being patient.
+                            Proven ability to use initiative to successfully deal with challenges, finding solutions, and handle difficult situations.
+                            Very detail-oriented, resourceful, and highly organized. Fast learner, energetic worker who is willing to take responsibilities.
+                        </p1>
+                        <br><br>
+                        <p1>
+                            I am an undergraduate student at NJIT with a strong emphasis on database administration and network security.
+                            I am looking for a new and exciting position that will allow me to utilize and improve my technical and problem-solving skills.
+                            I currently work at Maplewood Memorial Library as an IT assistant, where I troubleshoot network and solve computer issues an ensure that patrons’ privacy is secured.
+                            Also, I use to work part-time on campus as web-specialist. This role has enhanced my leadership, project management, and web development skills.
+                            Besides, work and education I like to play Fortnite, watch on Netflix and also like to read books that has a theme of survival, victory and American dream
+                        </p1>
+                    </div>
                 </div>
 
                 <!--<div class = "col-sm-3 columnDivide">-->
@@ -162,7 +165,7 @@
                     </div>
                 </div>
             </div>
-
+        </div>
             <!-- Container (skills Section) that has a cards -->
             <div id = "skills" class = "container-fluid thirdContainerBackground">
                 <div>
@@ -289,7 +292,31 @@
                     </div>
                 </div>
             </div>
-        </div>
+
+            <!-- Container (skills Section) that has a cards -->
+            <div id = "contact" class = "container-fluid fifthContainerBackground">
+                <div>
+                    <h1 class = "text-center">CONTACT</h1><hr>
+                </div>
+
+                <div class = "container contact">
+                    <form>
+                        <label for="fname">First Name *</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+                        <label for="lname">Last Name *</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+                        <label for="email">Email *</label>
+                        <input type="text" id="email" name="email" placeholder="Your Email.." required>
+
+                        <label for="subject">Subject *</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." required style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
 
         <div class = "footer">
             <p>@ Shivam Gandhi 2019</p>
