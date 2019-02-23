@@ -32,7 +32,7 @@ a.navbar-brand, a.nav-link{
 */
 
 .jumbotron{
-    background-color: #CF0055;
+    background-color: #FFC100;
     color: #fff;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
@@ -45,6 +45,35 @@ a.navbar-brand, a.nav-link{
     font-size: 35px;
     font-family: Montserrat, sans-serif;
 }
+
+/*
+    SOCIAL MEDIA ICON
+*/
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+}
+
+
+/**********************/
 
 #aboutMe{
     font-size: 20px;
