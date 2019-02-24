@@ -29,9 +29,12 @@ a.navbar-brand, a.nav-link{
     padding: 10px;
     font-weight: bold;
 }
-.navbar .navbar-toggle {
-    border-color: transparent;
-    color: #fff !important;
+
+.navbar-dark .navbar-toggler-icon{
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 /*********************/
